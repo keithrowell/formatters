@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["keith@keithrowell.com"]
   spec.summary       = "Friendly data formatting for your Rails views."
   spec.description   = ""
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/keithrowell/formatters"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
