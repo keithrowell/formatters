@@ -27,7 +27,11 @@ module Formatters
     end
 
     def self.format_as object, format
-      @@formats[format].call(object)
+      if @@formats[format]
+        @@formats[format].call(object)
+      else
+        object
+      end
     end
   end
 
